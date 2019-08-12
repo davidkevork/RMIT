@@ -1,4 +1,4 @@
-const ciphertext = '';
+const ciphertext = 'NZXMTYLETZYD';
 
 // Decode Caesars Cipher
 
