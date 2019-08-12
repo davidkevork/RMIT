@@ -3,6 +3,8 @@ const rows = 7;
 const columns = 8;
 const matrix = [];
 
+// Double transposition cipher attack
+
 let start = 0;
 for (let i = 0; i < rows; i++) {
   matrix[i] = [];
