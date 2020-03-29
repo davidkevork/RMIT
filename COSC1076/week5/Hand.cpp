@@ -11,6 +11,11 @@ Hand::Hand() {
     this->cards[i] = nullptr;
   }
 }
+Hand::Hand(Hand& other) : numStored(other.numStored) {
+  for (size_t i = 0; i < MAX_CARDS; i++) {
+    this->cards[i] = *other.cards;
+  }
+}
 Hand::~Hand() {
   for (size_t i = 0; i < MAX_CARDS; i++) {
     if (this->cards[i] != nullptr) {
