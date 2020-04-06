@@ -9,8 +9,8 @@ int main() {
     while (!inFile.eof()) {
       std::string line;
       std::getline(inFile, line);
-      length += line.length();
+      length += 1;
     }
   }
-  std::cout << "Length: " << length << std::endl;
+  std::cout << "Lines: " << length << std::endl;
 }
